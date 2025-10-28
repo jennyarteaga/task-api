@@ -4,6 +4,10 @@ info:
   version: 1.0.0
 servers:
   - url: http://localhost:3000
+    description: Local development server
+  - url: https://task-api-k334.onrender.com
+    description: Production server on render
+
 tags:
   - name: Tasks
     description: Task-related endpoints
