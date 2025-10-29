@@ -70,7 +70,7 @@ paths:
           required: true
           description: ID of the task to retrieve
           schema:
-            type: integer
+            type: string
             example: 1
       responses:
         '200':
